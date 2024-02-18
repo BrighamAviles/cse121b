@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Star Wars Character Information</h1>
+        <form id="preferencesForm">
+            <label>Select Character:</label>
+            <select id="selection">
+                <option value="luke">Luke Skywalker</option>
+                <option value="han">Han Solo</option>
+                <option value="chewbacca">Chewbacca</option>
+                <option value="leia">Princess Leia</option>
+                <option value="vader">Darth Vader</option>
+            </select>
+            
+        </form>
+        <button onclick="generate()">View Character</button>
+        <div class="textdiv">
+        <div id="recommendations"></div></div>
+    </div>
+
+    <script src="test.JS"></script>
